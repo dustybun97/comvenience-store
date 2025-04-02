@@ -1,13 +1,14 @@
 import { useState } from "react";
 import "./App.css";
 import HeaderSearch from "./components/HeaderSearch";
-
+import Navbar from "./components/navbar";
+import HeaderAppBar from "./components/HeaderAppBar";
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
     <>
-      <HeaderSearch />
+      <HeaderAppBar />
+      <Navbar />
     </>
   );
 }
