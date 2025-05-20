@@ -3,7 +3,10 @@ import { LogIn } from "lucide-react";
 import { ShoppingCart } from "lucide-react";
 import DropdownSelect from "./DropdownSelect";
 import SearchInput from "./SearchInput";
+
+
 function HeaderAppBar() {
+
   return (
     <div className="flex justify-center items-center p-2 shadow-md gap-5">
       {/* logo */}
